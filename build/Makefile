@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named zhengfei
+# Target rules for targets named 03
 
 # Build rule for target.
-zhengfei: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 zhengfei
-.PHONY : zhengfei
+03: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 03
+.PHONY : 03
 
 # fast build rule for target.
-zhengfei/fast:
-	$(MAKE) -f CMakeFiles/zhengfei.dir/build.make CMakeFiles/zhengfei.dir/build
-.PHONY : zhengfei/fast
+03/fast:
+	$(MAKE) -f CMakeFiles/03.dir/build.make CMakeFiles/03.dir/build
+.PHONY : 03/fast
 
-main.o: main.cpp.o
+03.o: 03.cpp.o
 
-.PHONY : main.o
+.PHONY : 03.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/zhengfei.dir/build.make CMakeFiles/zhengfei.dir/main.cpp.o
-.PHONY : main.cpp.o
+03.cpp.o:
+	$(MAKE) -f CMakeFiles/03.dir/build.make CMakeFiles/03.dir/03.cpp.o
+.PHONY : 03.cpp.o
 
-main.i: main.cpp.i
+03.i: 03.cpp.i
 
-.PHONY : main.i
+.PHONY : 03.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/zhengfei.dir/build.make CMakeFiles/zhengfei.dir/main.cpp.i
-.PHONY : main.cpp.i
+03.cpp.i:
+	$(MAKE) -f CMakeFiles/03.dir/build.make CMakeFiles/03.dir/03.cpp.i
+.PHONY : 03.cpp.i
 
-main.s: main.cpp.s
+03.s: 03.cpp.s
 
-.PHONY : main.s
+.PHONY : 03.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/zhengfei.dir/build.make CMakeFiles/zhengfei.dir/main.cpp.s
-.PHONY : main.cpp.s
+03.cpp.s:
+	$(MAKE) -f CMakeFiles/03.dir/build.make CMakeFiles/03.dir/03.cpp.s
+.PHONY : 03.cpp.s
 
 # Help Target
 help:
@@ -157,11 +157,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... zhengfei"
+	@echo "... 03"
 	@echo "... edit_cache"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... 03.o"
+	@echo "... 03.i"
+	@echo "... 03.s"
 .PHONY : help
 
 
